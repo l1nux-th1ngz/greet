@@ -1,11 +1,10 @@
 #!/bin/bash
 
-# Update package list
+# Update 
 sudo apt-get update
 
 # Install lightdm and bspwm
 sudo apt-get install -y lightdm
-sudo apt-get install -y bspwm
 
 # Configure lightdm
 sudo dpkg-reconfigure lightdm
